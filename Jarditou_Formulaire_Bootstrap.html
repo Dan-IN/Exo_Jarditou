@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Tableaux | HTML 5</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="row">
+            <div class="col-md-8 col-sm-7">
+                <img src="images/jarditou_logo.jpg" width="300"
+                    alt="Logo Jarditou" title="Logo Jarditou">
+            </div>
+            <div class="col-md-4 col-sm-5 h2 pt-4">
+                <aside>Tout le jardin</aside>
+        </header>
+        <nav id="navbar" class="navbar navbar-expand-sm bg-dark navbar-dark row">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index_ Jarditou_Bootstrap.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Jarditou_Tableau_Bootstrap.html">Tableau</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Jarditou_Formulaire_Bootstrap.html">Formulaire</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <br>
+        <div class="row">
+            <div class="col-md-8 col-sm-6">
+                <p>* Ces zones sont obligatoires</p>
+                <legend>Vos Coordonnées</legend>
+                <form>
+                    <div class="form-row">
+                        <div class="col-md-4 mb-3">
+                            <label for="validationServer01">Prénom</label>
+                            <input type="text" class="form-control is-valid" id="validationServer01"
+                                placeholder="First name" value="" required>
+                            <div class="valid-feedback">
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="validationServer02">Nom</label>
+                            <input type="text" class="form-control is-valid" id="validationServer02"
+                                placeholder="Last name" value="" required>
+                            <div class="valid-feedback">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-6 mb-3">
+                            <label for="validationServer03">Adresse</label>
+                            <input type="text" class="form-control is-invalid" id="validationServer03" placeholder=""
+                                required>
+                            <div class="invalid-feedback">
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for="validationServer05">Code Postal</label>
+                            <input type="text" class="form-control is-invalid" id="validationServer05" placeholder=""
+                                required>
+                            <div class="invalid-feedback">
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for="validationServer04">Ville</label>
+                            <input type="text" class="form-control is-invalid" id="validationServer04" placeholder=""
+                                required>
+                            <div class="invalid-feedback">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <p>Sexe*: </p>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                        value="option1">
+                    <label class="form-check-label" for="inlineRadio1">Féminin</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                        value="option2">
+                    <label class="form-check-label" for="inlineRadio2">Masculin</label>
+                </div>
+                <br>
+                <br>
+                <div class="form-group">
+                    <label for="birthday">Date Naissance*</label>
+                    <input type="date" id="birthday" name="birthday">
+                </div>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Entrer email valide">
+                    </div>
+                    <legend>Votre demande</legend>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Sujet*</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option>Commandes</option>
+                            <option>Question sur un produit</option>
+                            <option>Réclamation</option>
+                            <option>Autres</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Votre question*</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <br>
+                    <form>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck1">
+                            <label class="form-check-label" for="gridCheck1">J'accepte le traitement informatiquee
+                                de ce formulaire</label>
+                        </div>
+                        <br>
+                        <input class="btn btn-success" type="submit" value="Envoyer">
+                        <input class="btn btn-danger" type="reset" value="Annuler">
+                    </form>
+            </div>
+            <div class="col-md-4 col-sm-6 bg-secondary">
+                <aside>[COLONNE DROITE]</aside>
+            </div>
+        </div>
+    <br>
+    <nav id="navbar" class="navbar navbar-expand-sm bg-dark navbar-dark row">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="nav">
+                    <li class="disabled">
+                        <a class="nav-link text-white" href="#">Mentions Légales</a>
+                    </li>
+                    <li class="disabled">
+                        <a class="nav-link text-white" href="#">Horaires</a>
+                    </li>
+                    <li class="disabled">
+                        <a class="nav-link text-white" href="#">Plan du site</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
